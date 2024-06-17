@@ -20,13 +20,21 @@ body {
 .aside {
   width: 400px;
   height: 1554px;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 10px;
   margin-right: 25px;
 }
 
+.bg-white {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
 .photo img {
   border-radius: 10px;
+  width: 180px;
+  display: block;
+  margin: 0 auto 10px;
 }
 
 .birth {
@@ -36,6 +44,10 @@ body {
 
 .contacts h3 {
   padding-left: 20px;
+}
+
+.contacts {
+  padding-top: 20px;
 }
 
 .contacts ul {
@@ -221,7 +233,7 @@ h3 {
 
 .test-li {
   display: flex;
-  margin-bottom: 22px;
+  margin-bottom: 17px;
   flex-wrap: wrap;
 }
 
@@ -238,4 +250,9 @@ h3 {
 
 .block-bg {
   display: flex;
+}
+
+.linkedin {
+  display: flex;
+  margin-bottom: 15px;
 }
