@@ -126,7 +126,7 @@ h3 {
   color: var(--gray);
 }
 
-.border {
+.cv__experience--border {
   width: 90%;
   border: 1px solid var(--white);
   border-radius: 10px;
